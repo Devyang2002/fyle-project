@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FYLE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="container">
+    <div class="contact_us">
+        <div class="main">
+        <h2>AWARD WINNING</h2>
+        <h1>DIGITAL MARKETING AGENCY</h1>
+        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+        <button id="contactButton">CONTACT US</button>
+        </div>
+        <div class="hero_img">
+            <img src="./assets/hero.png" alt="IMAGE" width="400px" >
+        </div>
+    </div>
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <span id="closeButton" class="close">&times;</span>
+            <h2>Talk to us</h2>
+            <form id="contactForm">
+                <label for="email">Work email*</label>
+                <input type="email" id="email" name="email" required>
+                <div class="names">
+                    <div class="first-name">
+                        <label for="firstName">First name*</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="last-name">
+                        <label for="lastName">Last name*</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+                </div>
+                <button type="submit">Contact Us</button>
+            </form>
+        </div>
+    </div>    
+    </div>
+    <div class="what_we_do">
+        <h2>WHAT WE DO</h2>
+        <div class="content">
+            <h1>SERVICES PROVIDE FOR YOU</h1>
+            <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+        </div>
+        <div class="images">
+            <div class="image-containers" data-info="Image 1 info">
+                <img src="./assets/1@2x.png" alt="">
+                <div class="overlay">
+                    <h3>Software Develpoment</h3>
+                    <p>Description line 1 for Service 1.</p>
+                    <p>Description line 2 for Service 1.</p>
+                    <button>READ MORE →</button>
+                </div>
+            </div>
+            <div class="image-containers" data-info="Image 2 info">
+                <img src="./assets/2@2x.png" alt="">
+                <div class="overlay">
+                    <h3>Full Stack Development</h3>
+                    <p>Description line 1 for Service 1.</p>
+                    <p>Description line 2 for Service 1.</p>
+                    <button>READ MORE →</button>
+                </div>
+            </div>
+            <div class="image-containers" data-info="Image 3 info">
+                <img src="./assets/3@2x.png" alt="">
+                <div class="overlay">
+                    <h3>Web Development</h3>
+                    <p>Description line 1 for Service 1.</p>
+                    <p>Description line 2 for Service 1.</p>
+                    <button>READ MORE →</button>
+                </div>
+            </div>
+        </div>
+        <div class="dots">
+            <span class="dot" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+        </div>
+    </div>
+    <div class="why_choose_us">
+        <h2>WHY CHOOSE US</h2>
+        <h1>WHY WE ARE BEST</h1>
+        <div class="cards">
+        </div>
+    </div>
+    <div class="our_projects">
+        <h2>WHY CHOOSE US</h2>
+        <h1>WHY WE ARE BEST</h1>
+        <div class="project_content">
+        <div class="image-container">
+            <img id="project-image" src="" alt="" style="display: none;">
+        </div>
+        <div class="projects">
+        </div>
+    </div>
+    </div>
+    <div class="experts_growth">
+        <h2>EXPERTS GROWTH</h2>
+        <h1>OUR COMPANY GROWTH</h1>
+        <div class="growth_cards">
+            <div class="growth_card">
+                <img src="./assets/heart (2)@2x.png" alt="">
+                <h3>199+</h3>
+                <p>Satisfied Customers</p>
+            </div>
+            <div class="growth_card">
+                <img src="./assets/clock (3)@2x.png" alt="">
+                <h3>1591+</h3>
+                <p>Days of Operation</p>
+            </div>
+            <div class="growth_card">
+                <img src="./assets/Path 4402@2x.png" alt="">
+                <h3>283+</h3>
+                <p>Complete Projects</p>
+            </div>
+            <div class="growth_card">
+                <img src="./assets/Path 4406@2x.png" alt="">
+                <h3>75+</h3>
+                <p>Win Awards</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./script.js"></script></body>
+</html>
